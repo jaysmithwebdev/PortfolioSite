@@ -1,0 +1,53 @@
+/* MAIN THEMES ************************************************************** */
+/* DARKEST #0B2447 */
+/* DARK #19376D */
+/* MEDIUM #576CBC */
+/* LIGHT #A5D7E8 */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #0B2447;
+}
+
+h1 {
+    color: #19376D;
+}
+
+footer {
+    background: linear-gradient(30deg, #A5D7E8, #576CBC);
+}
+
+.hero-header {
+    background: linear-gradient(30deg, #576CBC, #0B2447);
+    /* turn this into a gradient with animation and extend the area */
+}
+
+.hero-row {
+    background-color: white;
+}
+
+.hero-button {
+    color: #576CBC;
+    border-color: #576CBC;
+}
+
+.todo {
+    background: linear-gradient(30deg, #576CBC, #0B2447);
+ 
+}
+
+/* MEDIA QUERIES ************************************************************ */
+/* make the hero image fuck off on smaller screens, maybe do a md thing too */
+
+@media (max-width: 993px) {
+    #headline-img {
+        display: none;
+        /* alter to be there but under the text */
+    }
+}
+
+@media (max-width: 680px) {
+    #headline-img {
+        display: none;
+    }
+}
